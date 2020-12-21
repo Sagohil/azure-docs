@@ -40,6 +40,8 @@ az vm list-skus --resource-type virtualMachines  --location $region --query "[?n
 
 #### PowerShell
 
+#This script does not gives us the correct information, We have confirmed the same with the Product team and we have an internal request for the same. We need to either remove the script from the article for now OR update the correct script. 
+
 ```powershell
 $region = "southeastasia"
 $vmSize = "Standard_E64s_v3"
